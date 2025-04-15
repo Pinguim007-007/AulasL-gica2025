@@ -37,8 +37,14 @@ function soma (nr1, nr2) {
 soma(5, 8);
 
 // função com parâmetros e retorno
+
 function Media (n1, n2) {
     let resultado = (n1+n2)/2
     return resultado;      
 }
 let valor = Media (5,8)
+
+function dobro (n1, n2) {
+    console.log(n1 + n2);
+    
+}
